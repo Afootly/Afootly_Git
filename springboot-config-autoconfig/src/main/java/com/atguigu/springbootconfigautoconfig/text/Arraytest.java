@@ -31,7 +31,6 @@ public class Arraytest {
 
          for (int  b: a){
              System.out.print(" "+b);
-             System.out.println();
          }
     }
 }
