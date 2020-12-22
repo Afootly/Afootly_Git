@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b4bdf51-0376-48d2-8783-a0d28c2ef4b1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/springbootconfigautoconfig/bean/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/springbootconfigautoconfig/bean/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/springbootconfigautoconfig/config/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/springbootconfigautoconfig/mapper/DepartmentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/springbootconfigautoconfig/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot-restfulcrud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-restfulcrud.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/springbootconfigautoconfig/text/Arraytest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/springbootconfigautoconfig/text/Arraytest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/atguigu/springbootconfigautoconfig/SpringbootConfigAutoconfigApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/atguigu/springbootconfigautoconfig/SpringbootConfigAutoconfigApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/springbootconfigautoconfig/controller/DeptControoler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/springbootconfigautoconfig/controller/DeptControoler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/springbootconfigautoconfig/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/springbootconfigautoconfig/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,25 +111,26 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mybatis/mapper" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.1994135" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA-workspace\Git-repository\Afootly_Git\springboot-config-autoconfig\src\main\resources\mybatis\mapper" />
+      <recent name="E:\IDEA-workspace\Git-repository\Afootly_Git\springboot-config-autoconfig\src\main\resources\mybatis" />
+      <recent name="E:\IDEA-workspace\Git-repository\Afootly_Git\springboot-config-autoconfig\src\main\java\com\atguigu\springbootconfigautoconfig" />
+      <recent name="E:\IDEA-workspace\SpringBoot2\springboot-config-autoconfig\src\main\resources\templates\dept" />
       <recent name="E:\IDEA-workspace\SpringBoot2\springboot-config-autoconfig\src\main\resources\templates\emp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.atguigu.springbootconfigautoconfig.controller" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\IDEA-workspace\SpringBoot2\springboot-config-autoconfig\src\main\resources\templates\dept" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IDEA-workspace\Git-repository\Afootly_Git\springboot-config-autoconfig\src\main\resources\mybatis" />
       <recent name="E:\IDEA-workspace\SpringBoot2\springboot-config-autoconfig\src\main\resources\templates\emp" />
-      <recent name="E:\IDEA-workspace\SpringBoot2\springboot-config-autoconfig\src\main\resources\templates" />
-      <recent name="E:\IDEA-workspace\SpringBoot2\springboot-config-autoconfig\src\main\resources\templates\commons" />
-      <recent name="E:\IDEA-workspace\SpringBoot2\springboot-config-autoconfig\src\main\java\com\atguigu\springbootconfigautoconfig" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.SpringbootConfigAutoconfigApplication">
@@ -177,8 +190,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpringbootConfigAutoconfigApplicationTests.contextLoads" />
         <item itemvalue="JUnit.SpringbootConfigAutoconfigApplicationTests" />
+        <item itemvalue="JUnit.SpringbootConfigAutoconfigApplicationTests.contextLoads" />
         <item itemvalue="Application.Arraytest" />
       </list>
     </recent_temporary>
@@ -206,70 +219,147 @@
       <workItem from="1608281611217" duration="665000" />
       <workItem from="1608534239459" duration="2900000" />
       <workItem from="1608602451558" duration="3687000" />
-      <workItem from="1608606383838" duration="600000" />
+      <workItem from="1608606383838" duration="20282000" />
     </task>
+    <task id="LOCAL-00001" summary="完成jdbc数据访问">
+      <created>1608607496860</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608607496860</updated>
+    </task>
+    <task id="LOCAL-00002" summary="完成jdbc数据访问：配置数据源">
+      <created>1608607814240</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608607814240</updated>
+    </task>
+    <task id="LOCAL-00003" summary="完成对druid的整合">
+      <created>1608619262186</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608619262186</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$/.." />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完成jdbc数据访问" />
+    <MESSAGE value="完成jdbc数据访问：配置数据源" />
+    <MESSAGE value="完成对druid的整合" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成对druid的整合" />
   </component>
   <component name="WindowStateProjectService">
     <state x="161" y="105" width="1062" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608603861927">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="161" y="105" width="1062" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1608603861927" />
+    <state x="490" y="225" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608647592167">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="490" y="225" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1608647592167" />
     <state x="521" y="258" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1607669386895">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="521" y="258" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1536.834@0.0.1536.834" timestamp="1607669386895" />
-    <state x="982" y="142" width="554" height="583" key="#com.intellij.ide.util.MemberChooser" timestamp="1608257512700">
+    <state x="982" y="142" width="554" height="583" key="#com.intellij.ide.util.MemberChooser" timestamp="1608627733347">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="982" y="142" width="554" height="583" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1608257512700" />
+    <state x="982" y="142" width="554" height="583" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1608627733347" />
     <state x="499" y="166" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607920326964">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="166" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1607920326964" />
-    <state x="249" y="14" key="CommitChangelistDialog2" timestamp="1608607399945">
+    <state x="249" y="14" key="CommitChangelistDialog2" timestamp="1608628684603">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="249" y="14" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1608607399945" />
+    <state x="249" y="14" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1608628684603" />
+    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1608623799843">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1608623799843" />
     <state x="549" y="175" key="FileChooserDialogImpl" timestamp="1608606096539">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="175" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1608606096539" />
-    <state width="1493" height="258" key="GridCell.Tab.0.bottom" timestamp="1608606156231">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1608650443904">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1608606156231" />
-    <state width="1493" height="258" key="GridCell.Tab.0.center" timestamp="1608606156231">
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1608650443904" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1608650443903">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1608606156231" />
-    <state width="1493" height="258" key="GridCell.Tab.0.left" timestamp="1608606156231">
+    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1608650443903" />
+    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1608650443903">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1608606156231" />
-    <state width="1493" height="258" key="GridCell.Tab.0.right" timestamp="1608606156231">
+    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1608650443903" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1608650443903">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1608606156231" />
-    <state width="1493" height="258" key="GridCell.Tab.1.bottom" timestamp="1608606156232">
+    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1608650443903" />
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom" timestamp="1608650443904">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1608606156232" />
-    <state width="1493" height="258" key="GridCell.Tab.1.center" timestamp="1608606156231">
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1608650443904" />
+    <state width="1493" height="2" key="GridCell.Tab.1.center" timestamp="1608650443904">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1608606156231" />
-    <state width="1493" height="258" key="GridCell.Tab.1.left" timestamp="1608606156231">
+    <state width="1493" height="2" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1608650443904" />
+    <state width="1493" height="2" key="GridCell.Tab.1.left" timestamp="1608650443904">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1608606156231" />
-    <state width="1493" height="258" key="GridCell.Tab.1.right" timestamp="1608606156232">
+    <state width="1493" height="2" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1608650443904" />
+    <state width="1493" height="2" key="GridCell.Tab.1.right" timestamp="1608650443904">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="258" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1608606156232" />
+    <state width="1493" height="2" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1608650443904" />
     <state width="1493" height="419" key="GridCell.Tab.2.bottom" timestamp="1608272550892">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -298,14 +388,18 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="490" y="159" width="540" height="524" key="StructurePopup/0.0.1536.834@0.0.1536.834" timestamp="1608260095675" />
+    <state x="361" y="153" key="Vcs.Push.Dialog.v2" timestamp="1608628662012">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="153" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1608628662012" />
     <state x="461" y="245" key="com.intellij.ide.util.TipDialog" timestamp="1608606388576">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="461" y="245" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1608606388576" />
-    <state x="457" y="173" width="621" height="490" key="find.popup" timestamp="1608605394119">
+    <state x="457" y="173" width="621" height="490" key="find.popup" timestamp="1608627783675">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="457" y="173" width="621" height="490" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1608605394119" />
+    <state x="457" y="173" width="621" height="490" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1608627783675" />
     <state x="360" y="33" width="852" height="768" key="new project wizard" timestamp="1608262639363">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

@@ -5,6 +5,7 @@ import com.atguigu.springbootconfigautoconfig.dao.DepartmentDao;
 import com.atguigu.springbootconfigautoconfig.dao.EmployeeDao;
 import com.atguigu.springbootconfigautoconfig.entities.Department;
 import com.atguigu.springbootconfigautoconfig.entities.Employee;
+import com.atguigu.springbootconfigautoconfig.mapper.EmployeeMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -19,6 +20,9 @@ public class EmployeeController {
     EmployeeDao employeeDao;
     @Autowired
     DepartmentDao departmentDao;
+    @Autowired
+    EmployeeMapper employeeMapper;
+
     @GetMapping("/emps")
     public String  list( Model model){
         Collection<Employee> all = employeeDao.getAll();
@@ -77,4 +81,11 @@ public class EmployeeController {
 
 
     }
-}
+    //整合mybatis(使用配置文件的方式)
+    @ResponseBody
+    @GetMapping("/empss/{id}")
+    public com.atguigu.springbootconfigautoconfig.bean.Employee getEmpById(  @PathVariable("id") Integer id){
+        com.atguigu.springbootconfigautoconfig.bean.Employee empById = employeeMapper.getEmpById(id);
+        return empById;
+    }
+  }

@@ -24,3 +24,6 @@ spring:
     maxPoolPreparedStatementPerConnectionSize: 20
     useGlobalDataSourceStat: true
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml #指定mybatis全局配置文件
+  mapper-locations: classpath:mybatis/mapper/*.xml   #指定mapper映射文件
