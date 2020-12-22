@@ -9,12 +9,12 @@ import java.sql.SQLException;
 
 @SpringBootTest
 class SpringbootConfigAutoconfigApplicationTests {
-//    @Autowired
-//    DataSource dataSource;
+    @Autowired
+    DataSource dataSource;
     @Test
     void contextLoads() throws SQLException {
-//        System.out.println(dataSource.getClass());
-//        System.out.println(dataSource.getConnection());
+        System.out.println(dataSource.getClass());
+        System.out.println(dataSource.getConnection());
 
 
     }
